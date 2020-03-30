@@ -1,0 +1,30 @@
+{
+  "name": "scrollbar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/bundle.js",
+  "dependencies": {
+    "rollup": "^2.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.0",
+    "@rollup/plugin-commonjs": "^11.0.2",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "rollup-plugin-babel": "^4.4.0"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PublicFE/ScrollBar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PublicFE/ScrollBar/issues"
+  },
+  "homepage": "https://github.com/PublicFE/ScrollBar#readme"
+}
